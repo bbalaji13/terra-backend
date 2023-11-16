@@ -1,0 +1,5 @@
+node_modules/
+
+aws_permissions*
+
+aws_permission_for_repo

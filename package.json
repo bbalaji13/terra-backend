@@ -1,0 +1,20 @@
+{
+  "name": "Node express",
+  "version": "1.0.0",
+  "description": "REST apis for user services",
+  "main": "server.js",
+  "scripts": {
+    "start": "SET NODE_ENV=dev && node server.js",
+    "test": "mocha test/allTests.js"
+  },
+  "author": "Balaji Borra",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^3.2.0",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {}
+}

@@ -1,0 +1,26 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "VisualEditor0",
+            "Effect": "Allow",
+            "Action": [
+                "ecs:GetTaskProtection",
+                "ecs:UpdateService",
+                "ecs:DescribeCapacityProviders",
+                "ecs:ListTagsForResource",
+                "ecs:DescribeServices",
+                "ecs:DescribeTaskSets",
+                "ecs:DescribeContainerInstances",
+                "ecs:DescribeTasks",
+                "ecs:DescribeTaskDefinition",
+                "ecs:RegisterTaskDefinition",
+                "ecs:DeregisterTaskDefinition",
+                "ecs:DescribeClusters"
+            ],
+            "Resource": [
+                "arn:aws:ecs:ap-south-1:421145715538:service/Internal_AI/*"
+            ]
+        }
+    ]
+}
